@@ -1,0 +1,255 @@
+/* main text color #212121 */
+/* text color #757575 */
+/* text and background color #FFFFFF */
+/* accent color #2196F3 */
+/* additional color rgba(255, 255, 255, 0.6 */
+/* additional color rgba(255, 255, 255, 0.4) */
+/* additional background color #E5E5E5 */
+/* Raleway bold, Roboto bold normal 500 900*/
+
+:root {
+    --primary-text-color: #212121;
+    --text-color: #757575;
+    --accent-color: #2196F3;
+    --white: #FFFFFF;
+    --button-bcg-color: #F5F4FA;
+    --footer-bcg-color: #2F303A;
+}
+
+.page {
+    background-color: var(--white);
+    color: var(--primary-text-color);
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
+}
+
+/* logo */
+
+.logo {
+    color: var(--accent-color);
+
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+.logo-main {
+    font-size: 26px;
+}
+
+.logo-secondary {
+    font-size: 22px;
+}
+
+.logo-main .item {
+    color: var(--primary-text-color);
+}
+
+.logo-secondary .item {
+    color: var(--white);
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* contacts-nav */
+
+.contacts-nav .link {
+    color: var(--text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* hero */
+
+.hero-title {
+    color: var(--white);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase; 
+}
+
+/* button */
+
+.button {
+    color: var(--white);
+    background-color: var(--accent-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+}
+
+.filter-button {
+    color: var(--primary-text-color);
+    background-color: var(--button-bcg-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--white);
+    background-color: var(--accent-color);
+}
+
+/* section */
+
+.section-title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* features */
+
+.features .title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features-description {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+/* our-work */
+
+.our-work .title {
+    color: var(--white);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/* our-team */
+
+.our-team .title {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.our-team-description {
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+/* examples */
+
+.examples .title {
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.examples-description {
+    color: var(--text-color);
+
+    font-size: 16px;
+    line-height: 1.2;
+}
+
+.examples-text {
+    color: var(--white);
+
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.examples a {
+    text-decoration: none;
+}
+
+/* footer */
+
+footer {
+    background-color: var(--footer-bcg-color);
+}
+
+address {
+    color: var(--white);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.footer-contacts .link {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+b {
+    color: var(--white);
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+}
