@@ -1,2 +1,2 @@
-# goit-markup-hw-02
-homework2 налаштування кольору і тексту
+# goit-markup-hw-03
+homework3 геометрія і позиціювання контенту
