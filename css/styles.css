@@ -26,6 +26,18 @@
 
 .list {
     list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 1230px;
+
+    outline: 2px solid turquoise;
 }
 
 /* logo */
@@ -76,9 +88,9 @@
     color: var(--accent-color);
 }
 
-/* contacts-nav */
+/* contacts-header */
 
-.contacts-nav .link {
+.contacts-header .link {
     color: var(--text-color);
 
     font-weight: 500;
@@ -88,14 +100,17 @@
     text-decoration: none;
 }
 
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
+.contacts-header .link:hover,
+.contacts-header .link:focus {
     color: var(--accent-color);
 }
 
 /* hero */
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 46px;
+
     color: var(--white);
 
     font-weight: 900;
@@ -106,9 +121,18 @@
     text-transform: uppercase; 
 }
 
+.hero {
+    text-align: center;
+}
+
 /* button */
 
 .button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+
     color: var(--white);
     background-color: var(--accent-color);
     font-weight: 700;
@@ -119,6 +143,9 @@
 }
 
 .filter-button {
+    border-radius: 4px;
+    padding: 6px 22px;
+
     color: var(--primary-text-color);
     background-color: var(--button-bcg-color);
     font-weight: 500;
@@ -134,7 +161,15 @@
 
 /* section */
 
+.section {
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+
 .section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
     color: var(--primary-text-color);
 
     font-weight: 700;
@@ -146,6 +181,9 @@
 /* features */
 
 .features .title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -154,6 +192,9 @@
 }
 
 .features-description {
+    margin-top: 0;
+    margin-bottom: 0;
+
     font-size: 14px;
     line-height: 1.7;
 }
@@ -161,7 +202,12 @@
 /* our-work */
 
 .our-work .title {
+    display: inline-block;
     color: var(--white);
+    background-color: rgba(47, 48, 58, 0.8);
+    margin: 0;
+    padding: 27px 88px;
+    min-width: 380px;
 
     font-weight: 700;
     font-size: 14px;
@@ -171,7 +217,13 @@
 
 /* our-team */
 
+.team-container {
+    background-color: var(--button-bcg-color);
+}
+
 .our-team .title {
+    margin-top: 30px;
+    margin-bottom: 10px;
     color: var(--primary-text-color);
 
     font-weight: 500;
@@ -181,6 +233,7 @@
 
 .our-team-description {
     color: var(--text-color);
+    margin: 0;
 
     font-size: 16px;
     line-height: 1.2;
@@ -188,7 +241,14 @@
 
 /* examples */
 
+.portfolio-header {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
 .examples .title {
+    margin-top: 20px;
+    margin-bottom: 4px;
     color: var(--primary-text-color);
 
     font-weight: 700;
@@ -198,6 +258,8 @@
 }
 
 .examples-description {
+    margin-top: 0;
+    margin-bottom: 20px;
     color: var(--text-color);
 
     font-size: 16px;
@@ -217,7 +279,7 @@
 
 /* footer */
 
-footer {
+.footer {
     background-color: var(--footer-bcg-color);
 }
 
@@ -236,7 +298,6 @@ address {
     text-decoration: none;
 }
 
-
 b {
     color: var(--white);
     
@@ -247,6 +308,8 @@ b {
 }
 
 .copyright {
+    padding-top: 18px;
+    padding-bottom: 21px;
     color: rgba(255, 255, 255, 0.6);
 
     font-size: 12px;

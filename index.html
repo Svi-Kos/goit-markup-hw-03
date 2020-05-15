@@ -5,24 +5,27 @@
     <meta name="viewport" content="width=hea, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body class="page">
 
     <!-- header -->
     <header>
-        <nav>
-            <a href="" class="logo logo-main">
-                Web <span class="item">Studio</span>
-            </a>
+        <div class="container">
+            <nav>
+                <a href="" class="logo logo-main">
+                    Web <span class="item">Studio</span>
+                </a>
 
-            <ul class="list site-nav">
-                <li><a href="" class="link current">Студия</a></li>
-                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
-            </ul>
+                <ul class="list site-nav">
+                    <li><a href="" class="link current">Студия</a></li>
+                    <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+                    <li><a href="" class="link">Контакты</a></li>
+                </ul>
+            </nav>
 
-            <ul class="list contacts-nav">
+            <ul class="list contacts-header">
                 <li><a href="" class="link">
                     <img src="./images/mail-icon.svg" alt="mail-icon">
                     info@devstudio.com</a>
@@ -32,7 +35,7 @@
                     +38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
+        </div>
     </header>
 
     <main>
@@ -45,127 +48,136 @@
 
         <!-- features -->
         <section class="section">
-            <h2 class="section-title">Преимущества</h2>
+            <div class="container">
+                <h2 class="section-title">Преимущества</h2>
 
-            <ul class="list features">
-                <li>
-                    <img src="./images/antenna.svg" alt="антенна">
-                    <h3 class="title">Внимание к деталям</h3>
-                    <p class="features-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li>
-                    <img src="./images/clock.svg" alt="будильник">
-                    <h3 class="title">Пунктуальность</h3>
-                    <p class="features-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li>
-                    <img src="./images/diagram.svg" alt="диаграма">
-                    <h3 class="title">Планирование</h3>
-                    <p class="features-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li>
-                    <img src="./images/astronaut.svg" alt="астронавт">
-                    <h3 class="title">Современные технологии</h3>
-                    <p class="features-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+                <ul class="list features">
+                    <li>
+                        <img src="./images/antenna.svg" alt="антенна">
+                        <h3 class="title">Внимание к деталям</h3>
+                        <p class="features-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li>
+                        <img src="./images/clock.svg" alt="будильник">
+                        <h3 class="title">Пунктуальность</h3>
+                        <p class="features-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li>
+                        <img src="./images/diagram.svg" alt="диаграма">
+                        <h3 class="title">Планирование</h3>
+                        <p class="features-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li>
+                        <img src="./images/astronaut.svg" alt="астронавт">
+                        <h3 class="title">Современные технологии</h3>
+                        <p class="features-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!-- our-work -->
         <section class="section">
-            <h2 class="section-title">Чем мы занимаемся</h2>
+            <div class="container">
+                <h2 class="section-title">Чем мы занимаемся</h2>
 
-            <ul class="list our-work">
-                <li>
-                    <img src="./images/desctop-apps.jpg" alt="Десктопные приложения" width="380">
-                    <h3 class="title">Десктопные приложения</h3>
-                </li>
-                <li>
-                    <img src="./images/mobile-apps.jpg" alt="Мобильные приложения" width="380">
-                    <h3 class="title">Мобильные приложения</h3>
-                </li>
-                <li>
-                    <img src="./images/design.jpg" alt="Дизайнерские решения" width="380">
-                    <h3 class="title">Дизайнерские решения</h3>
-                </li>
-            </ul>
+                <ul class="list our-work">
+                    <li>
+                        <img src="./images/desctop-apps.jpg" alt="Десктопные приложения" width="380">
+                        <h3 class="title">Десктопные приложения</h3>
+                    </li>
+                    <li>
+                        <img src="./images/mobile-apps.jpg" alt="Мобильные приложения" width="380">
+                        <h3 class="title">Мобильные приложения</h3>
+                    </li>
+                    <li>
+                        <img src="./images/design.jpg" alt="Дизайнерские решения" width="380">
+                        <h3 class="title">Дизайнерские решения</h3>
+                    </li>
+                </ul>
+            </div>
         </section>
 
         <!-- our-team -->
-        <section class="section">
-            <h2 class="section-title">Наша команда</h2>
+        
+            <section class="section team-container">
+                <div class="container">
+                    <h2 class="section-title">Наша команда</h2>
 
-            <ul class="list our-team">
-                <li>
-                    <img src="./images/JohnSmith.jpg" alt="Джон Смит" width="278">
-                    <h3 class="title">John Smith</h3>
-                    <p class="our-team-description">Product Designer</p>
-                    <ul class="list">
-                        <li><a href="" aria-label="">инстаграм</a></li>
-                        <li><a href="" aria-label="">твиттер</a></li>
-                        <li><a href="" aria-label="">фейсбук</a></li>
-                        <li><a href="" aria-label="">лінкедин</a></li>
+                    <ul class="list our-team">
+                        <li>
+                            <img src="./images/JohnSmith.jpg" alt="Джон Смит" width="278">
+                            <h3 class="title">John Smith</h3>
+                            <p class="our-team-description">Product Designer</p>
+                            <ul class="list">
+                                <li><a href="" aria-label="">инстаграм</a></li>
+                                <li><a href="" aria-label="">твиттер</a></li>
+                                <li><a href="" aria-label="">фейсбук</a></li>
+                                <li><a href="" aria-label="">лінкедин</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img src="./images/MartaStewart.jpg" alt="Марта Стюарт" width="278">
+                            <h3 class="title">Marta Stewart</h3>
+                            <p class="our-team-description">Frontend Developer</p>
+                            <ul class="list">
+                                <li><a href="" aria-label="">инстаграм</a></li>
+                                <li><a href="" aria-label="">твиттер</a></li>
+                                <li><a href="" aria-label="">фейсбук</a></li>
+                                <li><a href="" aria-label="">лінкедин</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img src="./images/RobertJakis.jpg" alt="Роберт Джекис" width="278">
+                            <h3 class="title">Robert Jakis</h3>
+                            <p class="our-team-description">Marketing</p>
+                            <ul class="list">
+                                <li><a href="" aria-label="">инстаграм</a></li>
+                                <li><a href="" aria-label="">твиттер</a></li>
+                                <li><a href="" aria-label="">фейсбук</a></li>
+                                <li><a href="" aria-label="">лінкедин</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <img src="./images/MartinDoe.jpg" alt="Мартин Доу" width="278">
+                            <h3 class="title">Martin Doe</h3>
+                            <p class="our-team-description">UI Designer</p>
+                            <ul class="list"> 
+                                <li><a href="" aria-label="">инстаграм</a></li>
+                                <li><a href="" aria-label="">твиттер</a></li>
+                                <li><a href="" aria-label="">фейсбук</a></li>
+                                <li><a href="" aria-label="">лінкедин</a></li>
+                            </ul>
+                        </li>
                     </ul>
-                </li>
-                <li>
-                    <img src="./images/MartaStewart.jpg" alt="Марта Стюарт" width="278">
-                    <h3 class="title">Marta Stewart</h3>
-                    <p class="our-team-description">Frontend Developer</p>
-                    <ul class="list">
-                        <li><a href="" aria-label="">инстаграм</a></li>
-                        <li><a href="" aria-label="">твиттер</a></li>
-                        <li><a href="" aria-label="">фейсбук</a></li>
-                        <li><a href="" aria-label="">лінкедин</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/RobertJakis.jpg" alt="Роберт Джекис" width="278">
-                    <h3 class="title">Robert Jakis</h3>
-                    <p class="our-team-description">Marketing</p>
-                    <ul class="list">
-                        <li><a href="" aria-label="">инстаграм</a></li>
-                        <li><a href="" aria-label="">твиттер</a></li>
-                        <li><a href="" aria-label="">фейсбук</a></li>
-                        <li><a href="" aria-label="">лінкедин</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/MartinDoe.jpg" alt="Мартин Доу" width="278">
-                    <h3 class="title">Martin Doe</h3>
-                    <p class="our-team-description">UI Designer</p>
-                    <ul class="list"> 
-                        <li><a href="" aria-label="">инстаграм</a></li>
-                        <li><a href="" aria-label="">твиттер</a></li>
-                        <li><a href="" aria-label="">фейсбук</a></li>
-                        <li><a href="" aria-label="">лінкедин</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
+                </div>
+            </section>
+        
 
         <!-- our-clients -->
         <section class="section"> 
-            <h2 class="section-title">Постоянные клиенты</h2>
+            <div class="container">
+                <h2 class="section-title">Постоянные клиенты</h2>
 
-            <ul class="list">
-                <li><a href="" aria-label="">компания YA and CO</a></li>
-                <li><a href="" aria-label="">компания Tagline here</a></li>
-                <li><a href="" aria-label="">компания Company</a></li>
-                <li><a href="" aria-label="">компания Foster Peters</a></li>
-                <li><a href="" aria-label="">компания Brand</a></li>
-                <li><a href="" aria-label="">компания Tagline</a></li>
-            </ul>
+                <ul class="list">
+                    <li><a href="" aria-label="">компания YA and CO</a></li>
+                    <li><a href="" aria-label="">компания Tagline here</a></li>
+                    <li><a href="" aria-label="">компания Company</a></li>
+                    <li><a href="" aria-label="">компания Foster Peters</a></li>
+                    <li><a href="" aria-label="">компания Brand</a></li>
+                    <li><a href="" aria-label="">компания Tagline</a></li>
+                </ul>
+            </div>
         </section>
     </main>
     
     <!-- footer -->
-    <footer>
-        
+    <footer class="footer">
+        <div class="container">
             <div>
                 <a href="" class="logo logo-secondary">
                     Web <span class="item">Studio</span>
                 </a>
-                
                 <address>
                     г. Киев, пр-т Леси Украинки, 26  
                 </address>
@@ -174,7 +186,7 @@
                     <a href="tel:+380991111111" class="link">+38 099 111 11 11</a>
                 </address>
             </div>
- 
+    
             <div>
                 <b>присоединяйтесь</b>
                 <ul class="list">
@@ -193,8 +205,9 @@
                 </form>
             </div>
         
-
-        <p class="copyright">2020 | Developed by GoIT Students</p>
+    
+            <p class="copyright">2020 | Developed by GoIT Students</p>
+        </div>            
     </footer>
 </body>
 </html>
